@@ -72,6 +72,7 @@ export default function FormProducto({
         }
         setIrProductos(true);
     }
+    
 
     if (irProductos) {
         router.push('/productos')

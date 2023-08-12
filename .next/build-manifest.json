@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,20 +27,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/categoria": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/categoria.js"
+    ],
     "/marca": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/marca.js"
     ],
+    "/ordenes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ordenes.js"
+    ],
     "/productos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/productos.js"
-    ],
-    "/productos/editar/[...id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/productos/editar/[...id].js"
     ]
   },
   "ampFirstPages": []

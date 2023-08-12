@@ -2,11 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/productos": "pages/api/productos.js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/productos/editar/[...id]": "pages/productos/editar/[...id].js",
   "/productos": "pages/productos.js",
-  "/api/categoria": "pages/api/categoria.js",
+  "/categoria": "pages/categoria.js",
+  "/": "pages/index.js",
+  "/marca": "pages/marca.js",
   "/api/marca": "pages/api/marca.js",
-  "/marca": "pages/marca.js"
+  "/api/categoria": "pages/api/categoria.js",
+  "/ordenes": "pages/ordenes.js",
+  "/api/productos": "pages/api/productos.js"
 }
