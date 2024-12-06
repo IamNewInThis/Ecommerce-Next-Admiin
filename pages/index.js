@@ -3,8 +3,8 @@ import { signIn, useSession } from "next-auth/react";
 
 export default function Home() {
   const { data: session } = useSession();
-  //console.log({session}) 
-  if (!session) {
+  console.log({session}) 
+  if (session) {
     <div className='text-blue-900 flex justify-between'>
       <div className="text-center w-full">
         <button className="bg-white p-2 px-4" onClick={()=>signIn('google')}>

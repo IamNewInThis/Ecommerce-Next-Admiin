@@ -8,10 +8,10 @@ const adminEmails = ['nicoruiz2003@gmail.com'];
 export const authOptions = {
   // Configure one or more authentication providers
   providers: [
-     GoogleProvider({
-        clientId: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET
-      })
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET
+    })
   ],
   adapter: MongoDBAdapter(clientPromise),
   callbacks: {
