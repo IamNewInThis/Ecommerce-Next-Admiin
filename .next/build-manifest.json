@@ -27,20 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/configuracion": [
+    "/categoria": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/configuracion.js"
+      "static/chunks/pages/categoria.js"
     ],
     "/marca": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/marca.js"
-    ],
-    "/ordenes": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/ordenes.js"
     ],
     "/productos": [
       "static/chunks/webpack.js",
